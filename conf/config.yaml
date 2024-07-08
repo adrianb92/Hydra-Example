@@ -1,0 +1,11 @@
+# Pytorch lightning trainer's argument
+# default flags are commented to avoid clustering the hyperparameters
+trainer:
+  max_epochs: 50
+
+resnet_version: 18 
+
+defaults:
+  - data: alien_predator
+  - network: transfer_resnet
+  - callbacks: model_checkpoint

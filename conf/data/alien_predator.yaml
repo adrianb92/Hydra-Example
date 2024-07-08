@@ -1,0 +1,7 @@
+name: alien_predator
+
+_target_: gsn_classification.lightning_data_modules.alien_predator.AlienPredatorDataModule
+batch_size: 32
+data_dir: '/content/hydra_example/alien_predator/'
+train_dataset_path: '/content/hydra_example/alien_predator/data/train'
+test_dataset_path: '/content/hydra_example/alien_predator/data/validation'
